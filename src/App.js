@@ -19,7 +19,9 @@ const App = () => {
     }
 
     return  (
+
         <div className="main-container">
+            <h1 className="title">Digite uma cidade para ver seu Clima:</h1>
             <input 
                 type="text"
                 className="search"
@@ -28,6 +30,7 @@ const App = () => {
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyPress={search}
             />
+            <p class="lucas-direitos text-light ">© All right Reversed.  <a class=" h6 ml-2 mb-0 lucas " href="https://twitter.com/Agnoos_" target="_blank">Lucas Ricardo</a></p>
             {weather.main && (
                 <div className="city">
                     <h2 className="city-name">

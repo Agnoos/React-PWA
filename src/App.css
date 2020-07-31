@@ -91,3 +91,30 @@ p {
         padding: 40px 20%;
     }
 }
+
+.lucas-direitos {
+    color: #DEB841;
+
+}
+.lucas {
+    animation: glow 2s ease-in-out infinite alternate;
+    color: #DEB841;
+}
+
+.lucas:hover {
+    text-decoration: none;
+    color: #DEB841;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 20px #DEB841;
+    }
+    to {
+        text-shadow: 0 0 30px #DEB841, 0 0 10px #DEB841;
+    }
+}
+
+.title{
+    color: #f5f5f5;
+}
